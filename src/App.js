@@ -141,7 +141,7 @@ const Length =({title,changeTime,type,time,formatTime})=>{
 
                 <button 
                 onClick={()=>changeTime(+60,type)}
-                className="btn btn-info" type="button" id="session-increment>
+                className="btn btn-info" type="button" id="session-increment">
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
                 </button>
 
