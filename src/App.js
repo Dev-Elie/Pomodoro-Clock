@@ -128,7 +128,7 @@ const App =()=>{
 const Length =({title,changeTime,type,time,formatTime})=>{
     return (
 
-        <div>id="session-length"
+        <div id="session-length">
             <h3> {title} </h3>
             <div className="time-sets">
                 <button
